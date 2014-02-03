@@ -26,4 +26,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)updateValue:(UISlider *)sender {
+    _valueLabel.text = [NSString stringWithFormat:@"%.2f", sender.value];
+    _valueLabel.textColor = [UIColor purpleColor];
+}
 @end

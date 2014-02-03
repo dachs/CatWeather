@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface CatViewController : UIViewController
+- (IBAction)updateValue:(UISlider *)sender;
+@property (weak, nonatomic) IBOutlet UILabel *valueLabel;
 
 @end
